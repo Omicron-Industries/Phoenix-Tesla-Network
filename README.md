@@ -7,8 +7,8 @@
 
 ---
 
-## ⚡ The Capstone Philosophy
-In this mod, we reject the "spamming singleblocks" meta. **Capstone Multiblocks** are designed to be:
+##  The Capstone Philosophy
+In this addon, we reject the "spamming singleblocks" meta. **Capstone Multiblocks** are designed to be:
 
 * **Unique:** You don't build rows of these. You build *one* or *two* as the heart of your base.
 * **Aesthetic:** Built for full-stop renders. Expect custom shaders, complex particle systems, and massive scale.
@@ -16,7 +16,7 @@ In this mod, we reject the "spamming singleblocks" meta. **Capstone Multiblocks*
 
 ---
 
-## 📡 The Tesla Network
+##  The Tesla Network
 The core of this addon is the **Tesla Tower**, a wireless power and data orchestration hub. 
 
 * **Wireless Distribution:** High-voltage energy transmission through the air, rendered with custom lightning arcs.
@@ -36,7 +36,7 @@ This repository comes packaged with **[Spotless](https://github.com/diffplug/spo
 
 ---
 
-## 🚀 Installation & Resources
+##  Installation & Resources
 * **Requirements:** GregTech Modern (1.20.1).
 * **Support:** Join the [Phoenix Forge Technologies Discord](https://discord.gg/KBNst7hZ4C) for help and community discussion.
 

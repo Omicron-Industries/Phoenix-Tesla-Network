@@ -22,4 +22,3 @@ public class PhoenixTeslaAPI {
 
     public static final Map<ITeslaBattery, Supplier<TeslaBatteryBlock>> TESLA_BATTERIES = new HashMap<>();
 }
-

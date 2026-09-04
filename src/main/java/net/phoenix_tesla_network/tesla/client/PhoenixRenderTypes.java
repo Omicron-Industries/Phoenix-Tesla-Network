@@ -29,10 +29,10 @@ public class PhoenixRenderTypes extends RenderType {
             false,
             false,
             CompositeState.builder()
-                    .setShaderState(RenderStateShard.RENDERTYPE_LINES_SHADER) 
-                    .setLineState(new LineStateShard(java.util.OptionalDouble.of(2.5D))) 
-                                                                                         
-                    .setLayeringState(RenderStateShard.VIEW_OFFSET_Z_LAYERING) 
+                    .setShaderState(RenderStateShard.RENDERTYPE_LINES_SHADER)
+                    .setLineState(new LineStateShard(java.util.OptionalDouble.of(2.5D)))
+
+                    .setLayeringState(RenderStateShard.VIEW_OFFSET_Z_LAYERING)
                     .setTransparencyState(RenderStateShard.TRANSLUCENT_TRANSPARENCY)
                     .setWriteMaskState(RenderStateShard.COLOR_DEPTH_WRITE)
                     .setCullState(RenderStateShard.NO_CULL)
@@ -109,4 +109,3 @@ public class PhoenixRenderTypes extends RenderType {
         return RADIAL_LINES;
     }
 }
-

@@ -26,4 +26,3 @@ public class PhoenixGuiTextures {
     public static final ResourceTexture TESLA_BACKGROUND = new ResourceTexture(
             "phoenix_tesla_network:textures/gui/widget/tesla/tesla_background.png");
 }
-

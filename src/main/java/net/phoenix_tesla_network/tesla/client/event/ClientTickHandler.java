@@ -7,7 +7,6 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.phoenix_tesla_network.tesla.PhoenixTeslaNetwork;
-
 import net.phoenix_tesla_network.tesla.client.gui.WingFlightScreen;
 import net.phoenix_tesla_network.tesla.client.keybind.PhoenixKeybinds;
 import net.phoenix_tesla_network.tesla.common.data.item.PhoenixArmorItem;
@@ -30,4 +29,3 @@ public class ClientTickHandler {
         }
     }
 }
-

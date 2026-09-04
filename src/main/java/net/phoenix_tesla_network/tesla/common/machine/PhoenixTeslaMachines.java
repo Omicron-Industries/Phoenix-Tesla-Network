@@ -521,9 +521,9 @@ public class PhoenixTeslaMachines {
             MULTI_AMP_TESLA_HATCH);
 
     public static MachineDefinition[] registerWirelessCharger(
-            GTRegistrate registrate,
-            String name,
-            BiFunction<IMachineBlockEntity, Integer, TeslaWirelessChargerMachine> factory) {
+                                                              GTRegistrate registrate,
+                                                              String name,
+                                                              BiFunction<IMachineBlockEntity, Integer, TeslaWirelessChargerMachine> factory) {
         return registerChargerTieredMachines(
                 registrate,
                 name,
@@ -541,8 +541,8 @@ public class PhoenixTeslaMachines {
                                 Component.translatable("gtceu.universal.tooltip.amperage_in", 4),
                                 Component.literal("Wireless Range: ").withStyle(ChatFormatting.GRAY)
                                         .append(Component.literal(
-                                                        tier >= GTValues.LV ? "Global (Cross-Dimensional)" :
-                                                                (8 * (tier + 1)) + "m")
+                                                tier >= GTValues.LV ? "Global (Cross-Dimensional)" :
+                                                        (8 * (tier + 1)) + "m")
                                                 .withStyle(ChatFormatting.AQUA)),
                                 Component.literal("Charges armor and tools from the Team Energy Cloud")
                                         .withStyle(ChatFormatting.GREEN))
@@ -551,11 +551,11 @@ public class PhoenixTeslaMachines {
     }
 
     public static MachineDefinition[] registerChargerTieredMachines(
-            GTRegistrate registrate,
-            String name,
-            BiFunction<IMachineBlockEntity, Integer, MetaMachine> machineFactory,
-            BiFunction<Integer, MachineBuilder<MachineDefinition, ?>, MachineDefinition> definitionBuilder,
-            int... tiers) {
+                                                                    GTRegistrate registrate,
+                                                                    String name,
+                                                                    BiFunction<IMachineBlockEntity, Integer, MetaMachine> machineFactory,
+                                                                    BiFunction<Integer, MachineBuilder<MachineDefinition, ?>, MachineDefinition> definitionBuilder,
+                                                                    int... tiers) {
         MachineDefinition[] definitions = new MachineDefinition[GTValues.TIER_COUNT];
 
         for (int tier : tiers) {
@@ -577,4 +577,3 @@ public class PhoenixTeslaMachines {
 
     public static void init() {}
 }
-

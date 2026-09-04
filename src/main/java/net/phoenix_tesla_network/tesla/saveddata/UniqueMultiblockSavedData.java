@@ -89,4 +89,3 @@ public class UniqueMultiblockSavedData extends SavedData {
         return getDataFor(owner).getEntry(multiblockType);
     }
 }
-

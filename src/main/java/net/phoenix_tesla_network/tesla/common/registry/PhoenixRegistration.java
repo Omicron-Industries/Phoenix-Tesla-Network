@@ -8,4 +8,3 @@ public class PhoenixRegistration {
 
     public static final GTRegistrate REGISTRATE = GTRegistrate.create(PhoenixTeslaNetwork.MOD_ID);
 }
-

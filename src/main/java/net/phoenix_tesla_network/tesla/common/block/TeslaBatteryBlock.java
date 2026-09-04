@@ -96,4 +96,3 @@ public class TeslaBatteryBlock extends Block {
         }
     }
 }
-

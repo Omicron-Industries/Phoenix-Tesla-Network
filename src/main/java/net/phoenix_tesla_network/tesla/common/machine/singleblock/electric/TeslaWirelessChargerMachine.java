@@ -267,4 +267,3 @@ public class TeslaWirelessChargerMachine extends TieredEnergyMachine
         return Component.literal("Tesla Field Generator");
     }
 }
-

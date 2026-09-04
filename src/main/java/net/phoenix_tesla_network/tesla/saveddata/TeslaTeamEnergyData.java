@@ -13,8 +13,8 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.saveddata.SavedData;
-
 import net.phoenix_tesla_network.tesla.common.machine.multiblock.electric.part.TeslaEnergyHatchPartMachine;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -339,4 +339,3 @@ public class TeslaTeamEnergyData extends SavedData {
                 TeslaTeamEnergyData::load, TeslaTeamEnergyData::new, DATA_NAME);
     }
 }
-

@@ -22,4 +22,3 @@ public class PhoenixArmorModel extends DefaultedGeoModel<PhoenixArmorItem> {
         return new ResourceLocation("phoenix_tesla_network", "animations/phoenix_armor.animation.json");
     }
 }
-

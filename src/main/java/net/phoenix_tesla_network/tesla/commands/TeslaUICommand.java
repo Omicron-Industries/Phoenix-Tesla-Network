@@ -60,4 +60,3 @@ public class TeslaUICommand {
         return 1;
     }
 }
-

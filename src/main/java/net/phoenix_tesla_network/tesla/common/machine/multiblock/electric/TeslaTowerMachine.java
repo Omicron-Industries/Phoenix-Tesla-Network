@@ -963,4 +963,3 @@ public class TeslaTowerMachine extends UniqueWorkableElectricMultiblockMachine
         };
     }
 }
-

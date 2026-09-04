@@ -14,4 +14,3 @@ public interface AbilitiesAccessor {
     @Accessor("flyingSpeed")
     void setFlyingSpeed(float speed);
 }
-

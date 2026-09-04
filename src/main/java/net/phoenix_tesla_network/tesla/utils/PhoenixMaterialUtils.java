@@ -25,4 +25,3 @@ public class PhoenixMaterialUtils {
         return FLUID_TO_MATERIAL.get(fluid);
     }
 }
-

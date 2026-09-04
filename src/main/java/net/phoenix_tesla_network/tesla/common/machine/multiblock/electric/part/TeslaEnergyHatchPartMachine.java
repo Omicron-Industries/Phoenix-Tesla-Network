@@ -329,4 +329,3 @@ public class TeslaEnergyHatchPartMachine extends EnergyHatchPartMachine implemen
         return InteractionResult.PASS;
     }
 }
-

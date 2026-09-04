@@ -38,13 +38,13 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.IItemHandlerModifiable;
-
-import it.unimi.dsi.fastutil.objects.Reference2IntMap;
-import it.unimi.dsi.fastutil.objects.Reference2IntOpenHashMap;
 import net.phoenix_tesla_network.tesla.configs.PhoenixTeslaConfigs;
 import net.phoenix_tesla_network.tesla.mixin.accessor.AbilitiesAccessor;
 import net.phoenix_tesla_network.tesla.saveddata.TeslaTeamEnergyData;
 import net.phoenix_tesla_network.tesla.utils.TeamUtils;
+
+import it.unimi.dsi.fastutil.objects.Reference2IntMap;
+import it.unimi.dsi.fastutil.objects.Reference2IntOpenHashMap;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
@@ -1131,4 +1131,3 @@ public class PhoenixTechSuite extends ArmorLogicSuite implements IStepAssist, Ge
         return this.cache;
     }
 }
-

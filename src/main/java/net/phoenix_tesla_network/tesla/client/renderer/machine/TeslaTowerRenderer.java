@@ -253,4 +253,3 @@ public class TeslaTowerRenderer extends DynamicRender<TeslaTowerMachine, TeslaTo
         return (float) (Math.sin(n * 2137.123) * 43758.5453) % 1.0f;
     }
 }
-

@@ -29,7 +29,6 @@ import net.phoenix_tesla_network.tesla.common.data.item.PhoenixTeslaItems;
 import net.phoenix_tesla_network.tesla.common.data.materials.PhoenixMaterials;
 import net.phoenix_tesla_network.tesla.common.data.materials.PhoenixOres;
 import net.phoenix_tesla_network.tesla.common.data.materials.PhoenixProgressionMaterials;
-
 import net.phoenix_tesla_network.tesla.common.machine.PhoenixTeslaMachines;
 import net.phoenix_tesla_network.tesla.configs.PhoenixTeslaConfigs;
 import net.phoenix_tesla_network.tesla.datagen.PhoenixTeslaDatagen;
@@ -69,7 +68,7 @@ public class PhoenixTeslaNetwork {
         PhoenixParticles.init(modEventBus);
         if (Platform.isClient()) {
             modEventBus.addListener(this::clientSetup);
-            
+
             PhoenixTeslaClient.init(modEventBus);
         }
 
@@ -119,9 +118,7 @@ public class PhoenixTeslaNetwork {
         PhoenixProgressionMaterials.register();
     }
 
-    private void modifyMaterials(PostMaterialEvent event) {
-        
-    }
+    private void modifyMaterials(PostMaterialEvent event) {}
 
     private void registerRecipeTypes(GTCEuAPI.RegisterEvent<ResourceLocation, GTRecipeType> event) {
         PhoenixTeslaRecipeTypes.init();
@@ -131,8 +128,5 @@ public class PhoenixTeslaNetwork {
         PhoenixTeslaMachines.init();
     }
 
-    public void registerSounds(GTCEuAPI.RegisterEvent<ResourceLocation, SoundEntry> event) {
-        
-    }
+    public void registerSounds(GTCEuAPI.RegisterEvent<ResourceLocation, SoundEntry> event) {}
 }
-

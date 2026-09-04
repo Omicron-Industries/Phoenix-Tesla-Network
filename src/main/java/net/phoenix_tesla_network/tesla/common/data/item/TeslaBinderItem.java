@@ -37,11 +37,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
-
 import net.phoenix_tesla_network.tesla.client.renderer.machine.TeslaHighlightRenderer;
 import net.phoenix_tesla_network.tesla.common.machine.singleblock.electric.TeslaWirelessChargerMachine;
 import net.phoenix_tesla_network.tesla.saveddata.TeslaTeamEnergyData;
 import net.phoenix_tesla_network.tesla.utils.TeamUtils;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -52,7 +52,7 @@ import java.util.function.Consumer;
 import static net.phoenix_tesla_network.tesla.api.gui.PhoenixGuiTextures.TESLA_BACKGROUND;
 
 public class TeslaBinderItem extends ComponentItem
-        implements IItemUIFactory, IInteractionItem, IAddInformation {
+                             implements IItemUIFactory, IInteractionItem, IAddInformation {
 
     public TeslaBinderItem(Properties properties) {
         super(properties);
@@ -687,4 +687,3 @@ public class TeslaBinderItem extends ComponentItem
         return true;
     }
 }
-

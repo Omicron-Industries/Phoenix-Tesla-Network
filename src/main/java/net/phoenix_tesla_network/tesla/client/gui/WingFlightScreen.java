@@ -9,8 +9,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-
-import net.phoenix_tesla_network.tesla.PhoenixTeslaNetwork;
 import net.phoenix_tesla_network.tesla.configs.PhoenixTeslaConfigs;
 import net.phoenix_tesla_network.tesla.network.PhoenixNetwork;
 import net.phoenix_tesla_network.tesla.network.packet.UpdateWingSettingsPacket;
@@ -56,6 +54,7 @@ public class WingFlightScreen extends Screen {
     private int vw, vh;
 
     private record ClickRegion(int x, int y, int w, int h, Runnable action) {
+
         boolean contains(double px, double py) {
             return px >= x && px < x + w && py >= y && py < y + h;
         }
@@ -312,4 +311,3 @@ public class WingFlightScreen extends Screen {
         return false;
     }
 }
-

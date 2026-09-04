@@ -51,4 +51,3 @@ public class TeslaSparkParticle extends TextureSheetParticle {
         return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
     }
 }
-

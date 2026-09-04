@@ -5,7 +5,6 @@ import com.tterrag.registrate.providers.RegistrateLangProvider;
 public class PhoenixMaterialLangHandler {
 
     public static void init(RegistrateLangProvider provider) {
-
         provider.add("material.phoenix_tesla_network.aluminfrost", "§bAluminfrost");
         provider.add("material.phoenix_tesla_network.concentrated_sulfuric_acid", "Concentrated Sulfuric Acid");
         provider.add("material.phoenix_tesla_network.source_gem", "§zSource Gem");
@@ -149,4 +148,3 @@ public class PhoenixMaterialLangHandler {
         provider.add("material.phoenix_tesla_network." + id, name);
     }
 }
-

@@ -21,4 +21,3 @@ public class TeslaStabilizerItem extends Item {
         tooltip.add(Component.translatable(this.getDescriptionId() + ".tooltip"));
     }
 }
-

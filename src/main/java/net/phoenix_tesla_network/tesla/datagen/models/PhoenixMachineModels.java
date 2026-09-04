@@ -110,4 +110,3 @@ public class PhoenixMachineModels {
         model.texture("side", casing);
     }
 }
-

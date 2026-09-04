@@ -27,19 +27,13 @@ public class PhoenixTeslaGTAddon implements IGTAddon {
     }
 
     @Override
-    public void registerTagPrefixes() {
-        
-    }
+    public void registerTagPrefixes() {}
 
     @Override
-    public void addRecipes(Consumer<FinishedRecipe> provider) {
-
-    }
+    public void addRecipes(Consumer<FinishedRecipe> provider) {}
 
     @Override
     public void registerElements() {
         PhoenixElements.init();
     }
-
 }
-

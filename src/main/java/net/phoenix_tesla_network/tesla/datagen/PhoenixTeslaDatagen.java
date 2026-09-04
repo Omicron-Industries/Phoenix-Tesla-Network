@@ -16,4 +16,3 @@ public class PhoenixTeslaDatagen {
         REGISTRATE.addDataGenerator(ProviderType.LANG, PhoenixMaterialLangHandler::init);
     }
 }
-

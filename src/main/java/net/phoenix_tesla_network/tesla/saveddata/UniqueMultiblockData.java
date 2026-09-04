@@ -129,4 +129,3 @@ public class UniqueMultiblockData {
         return data.get(new UniqueMultiblockId(multiblockType));
     }
 }
-

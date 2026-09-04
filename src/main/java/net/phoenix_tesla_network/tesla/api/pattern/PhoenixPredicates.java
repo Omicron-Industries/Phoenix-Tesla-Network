@@ -47,4 +47,3 @@ public class PhoenixPredicates {
                 .addTooltips(Component.translatable("gtceu.multiblock.pattern.error.batteries"));
     }
 }
-

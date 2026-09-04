@@ -21,4 +21,3 @@ public class PhoenixTeslaRecipeTypes {
                 .setEUIO(IO.IN);
     }
 }
-

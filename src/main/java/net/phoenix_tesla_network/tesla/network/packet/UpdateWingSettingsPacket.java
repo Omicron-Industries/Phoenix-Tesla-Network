@@ -69,4 +69,3 @@ public class UpdateWingSettingsPacket {
         ctx.get().setPacketHandled(true);
     }
 }
-

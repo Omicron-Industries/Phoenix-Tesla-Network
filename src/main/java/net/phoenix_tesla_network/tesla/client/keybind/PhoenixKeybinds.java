@@ -34,4 +34,3 @@ public class PhoenixKeybinds {
         event.register(TESLA_DISCHARGE);
     }
 }
-

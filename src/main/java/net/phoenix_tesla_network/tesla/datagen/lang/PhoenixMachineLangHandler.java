@@ -5,7 +5,6 @@ import com.tterrag.registrate.providers.RegistrateLangProvider;
 public class PhoenixMachineLangHandler {
 
     public static void init(RegistrateLangProvider provider) {
-        
         provider.add("phoenix_tesla_network.soul_lens.tooltip.flavor", "The Veil is thinner than you realize.");
         provider.add("phoenix_tesla_network.soul_lens.tooltip.1", "Your way of checking on the Soul of the World.");
         provider.add("gtceu.bio_engine", "Bio Aetheric Engine");
@@ -303,4 +302,3 @@ public class PhoenixMachineLangHandler {
         provider.add("phoenix_tesla_network.universal.tooltip.source_storage_capacity", "§zSource §9Capacity: §f%d mB");
     }
 }
-

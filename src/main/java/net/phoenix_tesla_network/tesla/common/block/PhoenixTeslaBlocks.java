@@ -93,4 +93,3 @@ public class PhoenixTeslaBlocks {
             "Invariant Naquadah Alloy Machine Casing", "machine_casing_invariant_naquadah_alloy",
             "casings/multiblock/machine_casing_invariant_naquadah_alloy", BlockItem::new);
 }
-

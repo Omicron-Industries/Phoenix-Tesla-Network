@@ -149,6 +149,4 @@ public class PhoenixTeslaConfigs {
         })
         public double poweredVerticalBase = 8.0;
     }
-
 }
-

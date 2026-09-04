@@ -20,4 +20,3 @@ public class PhoenixParticles {
         PARTICLES.register(modBus);
     }
 }
-

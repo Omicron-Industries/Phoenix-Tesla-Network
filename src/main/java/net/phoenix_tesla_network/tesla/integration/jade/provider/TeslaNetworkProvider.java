@@ -13,12 +13,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
-
 import net.phoenix_tesla_network.tesla.PhoenixTeslaNetwork;
 import net.phoenix_tesla_network.tesla.common.machine.multiblock.electric.TeslaTowerMachine;
 import net.phoenix_tesla_network.tesla.common.machine.multiblock.electric.part.TeslaEnergyHatchPartMachine;
 import net.phoenix_tesla_network.tesla.saveddata.TeslaTeamEnergyData;
 import net.phoenix_tesla_network.tesla.utils.TeamUtils;
+
 import snownee.jade.api.BlockAccessor;
 import snownee.jade.api.IBlockComponentProvider;
 import snownee.jade.api.IServerDataProvider;
@@ -171,4 +171,3 @@ public class TeslaNetworkProvider implements IBlockComponentProvider, IServerDat
         return UID;
     }
 }
-

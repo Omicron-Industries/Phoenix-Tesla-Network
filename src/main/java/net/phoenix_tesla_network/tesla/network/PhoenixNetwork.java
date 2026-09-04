@@ -29,4 +29,3 @@ public class PhoenixNetwork {
                 Optional.of(NetworkDirection.PLAY_TO_SERVER));
     }
 }
-

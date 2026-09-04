@@ -26,13 +26,11 @@ public class PhoenixTeslaClient {
     private PhoenixTeslaClient() {}
 
     public static void init(IEventBus modBus) {
-
         DynamicRenderManager.register(PhoenixTeslaNetwork.id("tesla_tower"), TeslaTowerRenderer.TYPE);
     }
 
     @SubscribeEvent
     public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
-        
         event.registerSpriteSet(PhoenixParticles.TESLA_SPARK.get(), TeslaSparkProvider::new);
     }
 
@@ -65,4 +63,3 @@ public class PhoenixTeslaClient {
         });
     }
 }
-

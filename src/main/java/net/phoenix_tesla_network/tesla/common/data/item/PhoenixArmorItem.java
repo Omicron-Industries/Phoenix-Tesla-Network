@@ -130,4 +130,3 @@ public class PhoenixArmorItem extends ArmorComponentItem implements GeoItem {
         return this.cache;
     }
 }
-

@@ -172,21 +172,6 @@ public class PhoenixTeslaItems {
             })
             .model((ctx, prov) -> prov.generated(ctx, prov.modLoc("item/tesla_stabilizer/uv_tesla_stabilizer")))
             .register();
-    /*
-     * 
-     * public static final ItemEntry<Item> ENCRYPTED_DATA_DRIVE = REGISTRATE
-     * .item("encrypted_data_drive", Item::new)
-     * .lang("Encrypted Data Drive")
-     * .properties(p -> p.stacksTo(1).rarity(Rarity.RARE))
-     * // Dynamic Tooltip based on NBT
-     * .setData(ProviderType.LANG, (ctx, prov) -> {
-     * prov.add(ctx.get(), "Encrypted Data Drive");
-     * prov.add(ctx.get().getDescriptionId() + ".tooltip",
-     * "§7Contains encrypted archival data.\n§6Right-click §7to upload to the Terminal.");
-     * })
-     * .register();
-     * 
-     */
 
     public static ItemEntry<TeslaStabilizerItem> UHV_TESLA_STABILIZER = REGISTRATE
             .item("uhv_tesla_stabilizer", TeslaStabilizerItem::new)
@@ -198,16 +183,6 @@ public class PhoenixTeslaItems {
             })
             .model((ctx, prov) -> prov.generated(ctx, prov.modLoc("item/tesla_stabilizer/uhv_tesla_stabilizer")))
             .register();
-
-    /*
-     * public static ItemEntry<ComponentItem> ENERGY_LAPOTRONIC_ORB = REGISTRATE
-     * .item("lapotronic_energy_orb", ComponentItem::create)
-     * .lang("Lapotronic Energy Orb")
-     * .model(overrideModel(GTCEu.id("battery"), 8))
-     * .onRegister(modelPredicate(GTCEu.id("battery"), ElectricStats::getStoredPredicate))
-     * .onRegister(attach(ElectricStats.createRechargeableBattery(250_000_000L, GTValues.IV)))
-     * .tag(CustomTags.IV_BATTERIES).register();
-     */
 
     public static void init() {}
 }

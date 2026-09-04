@@ -5,12 +5,11 @@ import com.tterrag.registrate.providers.RegistrateLangProvider;
 public class PhoenixMachineLangHandler {
 
     public static void init(RegistrateLangProvider provider) {
-        // Source Tech
+        
         provider.add("phoenix_tesla_network.soul_lens.tooltip.flavor", "The Veil is thinner than you realize.");
         provider.add("phoenix_tesla_network.soul_lens.tooltip.1", "Your way of checking on the Soul of the World.");
         provider.add("gtceu.bio_engine", "Bio Aetheric Engine");
 
-        // Tesla & Laser Tech
         provider.add("emi_info.phoenix_tesla_network.required_shield", "Required Shield: %s");
         provider.add("emi_info.phoenix_tesla_network.shield_heal", "Shield Health Restored: +%s");
         provider.add("emi_info.phoenix_tesla_network.shield_damage", "Shield Damage Applied: -%s");
@@ -33,12 +32,10 @@ public class PhoenixMachineLangHandler {
         provider.add("tech.phoenix_tesla_network.laser.output.mid", "Tesla Photonic Coalescence Array");
         provider.add("tech.phoenix_tesla_network.laser.output.high", "Tesla Photonic Coalescence Matrix");
 
-        // Heat Exchanger System
         provider.add("gui.phoenix_tesla_network.heat_exchanger.heat_exchange_surface", "Exchange Columns: %d");
         provider.add("gui.phoenix_tesla_network.heat_exchanger.current_efficiency", "Thermal Conductivity: Tier %d");
         provider.add("gui.phoenix_tesla_network.missing_spring", "Missing Heat Exchange Spring!");
 
-        // Source System
         provider.add("gui.phoenix_tesla_network.source_hatch.label.import", "Source Input Hatch");
         provider.add("gui.phoenix_tesla_network.source_hatch.label.export", "Source Output Hatch");
         provider.add("gui.phoenix_tesla_network.source_hatch.source", "Source Stored: %s");
@@ -48,7 +45,6 @@ public class PhoenixMachineLangHandler {
         provider.add("tooltip.phoenix_tesla_network.source_hatch.capacity", "§cMax Source Capacity:§d %s");
         provider.add("recipe.capability.source.name", "Source");
 
-        // Fission Reactor System
         provider.add("phoenix_tesla_network.not_formed", "Structure not formed!");
         provider.add("phoenix_tesla_network.status.safe_idle", "Status: §aIDLE");
         provider.add("phoenix_tesla_network.status.safe_working", "Status: §6ACTIVE");
@@ -56,7 +52,6 @@ public class PhoenixMachineLangHandler {
         provider.add("phoenix_tesla_network.status.no_coolant", "§eWARNING: Coolant Supply Exhausted");
         provider.add("phoenix_tesla_network.nuke_radius", "Blast area: %s");
 
-        // Breeding & Transmutation
         provider.add("phoenix_tesla_network.blanket.input", "Breeding Target");
         provider.add("phoenix_tesla_network.blanket.potential_outputs", "Potential Transmutations:");
         provider.add("phoenix_tesla_network.blanket.bias_hint",
@@ -68,7 +63,6 @@ public class PhoenixMachineLangHandler {
                 "Irradiate target materials to produce specialized isotopes.");
         provider.add("phoenix_tesla_network.blanket_cycle", "Transmutes §f%s§7 units every §6%s§7 seconds");
 
-        // Core Stats & Heat
         provider.add("phoenix_tesla_network.neutron_bias", "§7Neutron Bias: §f%s");
         provider.add("phoenix_tesla_network.spectrum_shift", "§7Spectrum Shift: §f%s");
         provider.add("phoenix_tesla_network.current_heat", "Core Temperature: %s HU");
@@ -77,7 +71,6 @@ public class PhoenixMachineLangHandler {
         provider.add("phoenix_tesla_network.eu_generation", "Output: %s EU/t");
         provider.add("phoenix_tesla_network.parallels", "Parallel Processing: %sx");
 
-        // Components & Cooling
         provider.add("phoenix_tesla_network.moderator", "Primary Moderator: %s");
         provider.add("phoenix_tesla_network.moderator_fuel_discount", "Fuel Efficiency: +%s%%");
         provider.add("phoenix_tesla_network.cooler", "Primary Cooling: %s");
@@ -89,14 +82,12 @@ public class PhoenixMachineLangHandler {
         provider.add("phoenix_tesla_network.summary", "Cooling: %s / %s HU/t");
         provider.add("phoenix_tesla_network.cooling_power", "§bCooling Capacity: §f%s HU/t");
 
-        // Fuel Management
         provider.add("phoenix_tesla_network.fuel_cycle", "Consumes §f%s§7 units every §6%s§7 seconds");
         provider.add("phoenix_tesla_network.depleted_fuel", "§7Depleted Fuel: §f%s");
         provider.add("phoenix_tesla_network.fuel_usage", "Fuel Consumption: §f%s");
         provider.add("phoenix_tesla_network.fuel_required", "§7Requires Fuel: §f%s");
         provider.add("phoenix_tesla_network.coolant_required", "§3Required Coolant: §f%s");
 
-        // Block Specific Tooltips & Jade Integration
         provider.add("block.phoenix_tesla_network.fission_cooler.capacity", "§bCooling Capacity: §f%s HU/t");
         provider.add("block.phoenix_tesla_network.fission_cooler.required_coolant", "§3Required Coolant: §f%s");
         provider.add("block.phoenix_tesla_network.fission_moderator.multiplier", "§6Heat Multiplier: §f%sx");
@@ -109,7 +100,6 @@ public class PhoenixMachineLangHandler {
         provider.add("phoenix_tesla_network.current_heat_display", "Core Temperature: %s / %s HU");
         provider.add("phoenix_tesla_network.status.scram", "§c§lSCRAM ACTIVE");
 
-        // SCRAM Hatch Tooltips
         provider.add("block.phoenix_tesla_network.fission_scram_hatch.desc",
                 "Stops fuel consumption and heat generation when receiving a Redstone signal.");
 
@@ -141,7 +131,6 @@ public class PhoenixMachineLangHandler {
                 "Emits fixed strength on back face only.");
         provider.add("gui.phoenix_tesla_network.advanced_stability_sensor.hint2", "Pair with an Advanced SCRAM Hatch.");
 
-        // UI Elements for the Advanced SCRAM Hatch
         provider.add("gui.phoenix_tesla_network.advanced_scram.title", "Advanced SCRAM Configuration");
         provider.add("gui.phoenix_tesla_network.advanced_scram.threshold", "Min Signal Strength (1–15)");
         provider.add("gui.phoenix_tesla_network.advanced_scram.sustain", "Sustain Duration (ticks)");
@@ -153,18 +142,10 @@ public class PhoenixMachineLangHandler {
         provider.add("gui.phoenix_tesla_network.advanced_scram.hint1", "Signal must meet strength threshold");
         provider.add("gui.phoenix_tesla_network.advanced_scram.hint2", "for the full sustain duration to SCRAM.");
 
-        // SCRAM status for Jade / controller display
         provider.add("phoenix_tesla_network.status.scram_basic", "§c§lSCRAM ACTIVE §8(Basic Hatch)");
         provider.add("phoenix_tesla_network.status.scram_advanced", "§6§lSCRAM ACTIVE §8(Advanced Hatch)");
         provider.add("phoenix_tesla_network.status.scram_arming", "§e§lSCRAM ARMING: §f%d / %d ticks");
 
-        // Stability Sensor UI & Tooltips
-
-        // Hatches Descriptions
-
-        // UI Elements for the Sensor
-
-        // Multiblock Pattern Info
         provider.add("phoenix.multiblock.pattern.info.multiple_fuel_rods",
                 "Requires Fuel Rods. These generate base heat and determine recipe parallels.");
         provider.add("phoenix.multiblock.pattern.info.multiple_blankets",
@@ -174,7 +155,6 @@ public class PhoenixMachineLangHandler {
         provider.add("phoenix.multiblock.pattern.info.multiple_coolers",
                 "Coolers remove heat based on their tier and provided coolant fluid.");
 
-        // Recipe Typeskk
         provider.add("gtceu.high_performance_breeder_reactor",
                 "High-Performance Breeder Reactor");
         provider.add("gtceu.heat_exchanging",
@@ -198,7 +178,6 @@ public class PhoenixMachineLangHandler {
 
         provider.add("gtceu.tooltip.tier", "Tier: %s");
 
-        // Jade Integration
         provider.add("config.jade.plugin_phoenix_tesla_network.source_machine_info", "Source Machine Information");
         provider.add("config.jade.plugin_phoenix_tesla_network.plasma_furnace_info",
                 "High-Pressure Plasma Arc Furnace Info");
@@ -234,13 +213,11 @@ public class PhoenixMachineLangHandler {
         provider.add("jade.phoenix_tesla_network.source_consumption", "Source Consumption:");
         provider.add("jade.phoenix_tesla_network.source_production", "Source Production:");
 
-        // Multiblock Tooltip Builder
         provider.add("multiblock.tooltip.machinetype", "Machine Type: %s");
         provider.add("multiblock.yellowline", "§e━━━━━━━━━━━━━━━━━━━━");
         provider.add("multiblock.underyellowline", "Hold §e§lSHIFT§r to display structure details!");
         provider.add("multiblock.structureadvtooltip", "Structure:");
 
-        // Feature Flags (Checks)
         provider.add("multiblock.pchaccess1", "\u00A0\u00A0\u00A0§9Parallel Control Hatch: ✓");
         provider.add("multiblock.pchaccess2",
                 "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0§7This multiblock can use PCHs to increase it's efficiency.");
@@ -253,7 +230,6 @@ public class PhoenixMachineLangHandler {
         provider.add("multiblock.nooc1", "\u00A0\u00A0\u00A0§cOverclocks: X");
         provider.add("multiblock.nooc2", "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0§7This multiblock can not overclock.");
 
-        // Laser & Power
         provider.add("multiblock.laseraccess1", "\u00A0\u00A0\u00A0§6Laser Target Access: ✓");
         provider.add("multiblock.laseraccess2",
                 "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0§7This multiblock can be powered with Laser Target Hatches.");
@@ -267,7 +243,6 @@ public class PhoenixMachineLangHandler {
         provider.add("multiblock.energyoutputaccess2",
                 "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0§7This multiblock provides §3Energy§7 output!");
 
-        // Source
         provider.add("multiblock.sourceoutputaccess1", "\u00A0\u00A0\u00A0§zSource Output: §3✓");
         provider.add("multiblock.sourceoutputaccess2",
                 "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0§7This multiblock provides §zSource§7 output!");
@@ -275,7 +250,6 @@ public class PhoenixMachineLangHandler {
         provider.add("multiblock.sourceinputaccess2",
                 "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0§7This multiblock requires §zSource §7input!");
 
-        // Structure Components (Shift Tooltips)
         provider.add("multiblock.tooltip.controller", "\u00A0\u00A0\u00A0Controller: %s");
         provider.add("multiblock.tooltip.iteminput", "\u00A0\u00A0\u00A0Input Bus: %s");
         provider.add("multiblock.tooltip.fluidinput", "\u00A0\u00A0\u00A0Input Hatch: %s");
@@ -287,7 +261,6 @@ public class PhoenixMachineLangHandler {
         provider.add("multiblock.tooltip.muffler", "\u00A0\u00A0\u00A0Muffler Hatch: %s");
         provider.add("multiblock.tooltip.pch", "\u00A0\u00A0\u00A0Parallel Control Hatch: %s");
 
-        // Custom/Special Tooltips
         provider.add("gtultimate.custom.tooltip_one_energy_hatch", "§fAccepts §lEXACTLY §61 energy hatch.");
         provider.add("gtultimate.custom.tooltip_dimensional_anchor",
                 "§9§oOpens stable rifts to other dimensions, determined by its placement.\\n§7These gateways allow for accelerated resource extraction unique to each realm.\\n§7Requires distinct recipes for Overworld, Nether, and End configurations.");
@@ -313,7 +286,6 @@ public class PhoenixMachineLangHandler {
 
         ;
 
-        // Machine tooltips
         PhoenixLangHandler.multilineLang(provider, "gtultimate.custom.tooltip_large_steam_sifter",
                 largeSteamSifterDesc);
         PhoenixLangHandler.multilineLang(provider, "gtultimate.custom.tooltip_dimensional_anchor", anchorDesc);
@@ -322,12 +294,10 @@ public class PhoenixMachineLangHandler {
         PhoenixLangHandler.multilineLang(provider, "gtultimate.custom.tooltip_source_reactor", sourceReactorDesc);
         PhoenixLangHandler.multilineLang(provider, "gtultimate.custom.tooltip_bio_engine", bioEngineDesc);
 
-        // Multi-line Tooltips
         PhoenixLangHandler.multiLang(provider, "tooltip.phoenix_tesla_network.shield_stability_hatch",
                 "Outputs shield stability",
                 "as a redstone signal.");
 
-        // Source Tank Tooltips
         provider.add("phoenix_tesla_network.machine.multiblock.source_tank.tooltip",
                 "Fill and drain through the controller or source hatches.");
         provider.add("phoenix_tesla_network.universal.tooltip.source_storage_capacity", "§zSource §9Capacity: §f%d mB");

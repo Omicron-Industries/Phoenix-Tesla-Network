@@ -22,7 +22,6 @@ public class ClientTickHandler {
         Minecraft mc = Minecraft.getInstance();
         if (mc.player == null || mc.level == null) return;
 
-        // ── Wing GUI Logic ────────────────────────────────────────────────
         while (PhoenixKeybinds.OPEN_WING_GUI.consumeClick()) {
             if (mc.screen == null &&
                     mc.player.getItemBySlot(EquipmentSlot.CHEST).getItem() instanceof PhoenixArmorItem) {

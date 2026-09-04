@@ -11,7 +11,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.phoenix_tesla_network.tesla.PhoenixTeslaNetwork;
 import net.phoenix_tesla_network.tesla.saveddata.TeslaTeamEnergyData;
 
-
 @Mod.EventBusSubscriber(modid = PhoenixTeslaNetwork.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class TeslaLinkEventHandler {
 

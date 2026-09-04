@@ -25,27 +25,17 @@ public class PhoenixTeslaClient {
 
     private PhoenixTeslaClient() {}
 
-    // Inside your Client Setup / Event Bus Subscriber class
-
-    /**
-     * Called from your main Mod class (PhoenixTeslaNetwork) constructor or CommonSetup.
-     */
     public static void init(IEventBus modBus) {
-        // GTCEu Dynamic Renders
 
         DynamicRenderManager.register(PhoenixTeslaNetwork.id("tesla_tower"), TeslaTowerRenderer.TYPE);
     }
 
-    // --- 2. PARTICLE FACTORY REGISTRATION ---
     @SubscribeEvent
     public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
-        // Reference the common registry object
+        
         event.registerSpriteSet(PhoenixParticles.TESLA_SPARK.get(), TeslaSparkProvider::new);
     }
 
-    /**
-     * The bridge between the Particle Engine and your TeslaSparkParticle class.
-     */
     public static class TeslaSparkProvider implements ParticleProvider<SimpleParticleType> {
 
         private final SpriteSet sprites;
@@ -60,7 +50,6 @@ public class PhoenixTeslaClient {
                                        double xSpeed, double ySpeed, double zSpeed) {
             TeslaSparkParticle particle = new TeslaSparkParticle(level, x, y, z);
 
-            // Safety check: only pick if sprites exist
             if (this.sprites != null) {
                 particle.pickSprite(this.sprites);
             }

@@ -36,7 +36,6 @@ import net.phoenix_tesla_network.tesla.common.machine.multiblock.electric.part.T
 import net.phoenix_tesla_network.tesla.common.machine.singleblock.electric.TeslaWirelessChargerMachine;
 import net.phoenix_tesla_network.tesla.datagen.models.PhoenixMachineModels;
 
-
 import java.util.List;
 import java.util.Locale;
 import java.util.function.BiConsumer;
@@ -395,7 +394,6 @@ public class PhoenixTeslaMachines {
         }
         return definitions;
     }
-
 
     private static String getTeslaOverlay(String iomode, int amperage) {
         if (amperage == 16) {

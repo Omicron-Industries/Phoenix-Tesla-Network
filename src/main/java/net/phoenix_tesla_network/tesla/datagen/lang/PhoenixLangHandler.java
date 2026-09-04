@@ -5,7 +5,7 @@ import com.tterrag.registrate.providers.RegistrateLangProvider;
 public class PhoenixLangHandler {
 
     public static void init(RegistrateLangProvider provider) {
-        // Tool Renaming & General Items
+        
         provider.add("metaarmor.message.step_assist.disabled", "PhoenixTech™ Suite: StepAssist Disabled");
         provider.add("metaarmor.message.step_assist.enabled", "PhoenixTech™ Suite: StepAssist Enabled");
         provider.add("item.gtceu.tool.ev_screwdriver", "%s Electric Screwdriver (EV)");
@@ -31,13 +31,11 @@ public class PhoenixLangHandler {
         provider.add("item.gtceu.tool.luv_wirecutter", "%s Wire Cutters (LuV)");
         provider.add("item.gtceu.tool.zpm_wirecutter", "%s Wire Cutters  (ZPM)");
 
-        // Shield States
         provider.add("shield.phoenix_tesla_network.type.normal", "Normal");
         provider.add("shield.phoenix_tesla_network.type.inactive", "Inactive");
         provider.add("shield.phoenix_tesla_network.type.decayed", "Decayed");
         provider.add("shield.phoenix_tesla_network.current_shield", "Shield Status: %s");
 
-        // Lore & General Tooltips
         provider.add("tooltip.phoenix_tesla_network.crystal_rose.generic", "A crystalline flower of immense power.");
         provider.add("tooltip.phoenix_tesla_network.crystal_rose.made_from", "Forged from %s.");
         provider.add("tooltip.phoenix_tesla_network.nanites.generic", "Microscopic machines swarming with potential.");
@@ -45,22 +43,17 @@ public class PhoenixLangHandler {
         provider.add("metaarmor.tooltip.wings", "Contains Phoenix Wings");
         provider.add("metaarmor.tooltip.tesla_connection", "Controls Tesla Network Connection");
 
-        // Jade Threaded Output Tooltips
         provider.add("gtceu.top.recipe_output", "Predicted Output:");
         provider.add("item.phoenix_tesla_network.jade.thread_header", "Alchemical Thread #%s: %s%%");
         provider.add("item.phoenix_tesla_network.jade.threads_active", "Active Alchemical Threads:");
         provider.add("gtceu.gui.content.range", "%s - %s");
         provider.add("gtceu.gui.content.times_item", "x %s");
 
-        // General Source Machine Tooltips
         provider.add("jade.phoenix_tesla_network.source_container", "Source Energy");
 
-        // Specialized Tank Tooltips
         provider.add("jade.phoenix_tesla_network.source_tank_header", "Source Tank Content");
         provider.add("jade.phoenix_tesla_network.source_tank_format", "Capacity %s / %s - %d%%");
         provider.add("config.jade.plugin_phoenix_tesla_network.source_tank_info", "Source Tank Info");
-
-        // Keybinds
 
         provider.add("key.categories.phoenix_tesla_network", "phoenix_tesla_network");
         provider.add("key.phoenix_tesla_network.wing_flight_gui", "Wing Flight Settings");
@@ -68,7 +61,6 @@ public class PhoenixLangHandler {
         provider.add("key.phoenix_tesla_network.tesla_discharge", "Activate Tesla Discharge");
         provider.add("key.phoenix_tesla_network.manipulator_menu", "Matter Manipulator Menu");
 
-        // Chameleon Spray Can
         provider.add("creativetab.phoenix_creative_tab", "Phoenix Core");
         provider.add("gui.phoenix_tesla_network.color_select.title", "Select Color");
         provider.add("behaviour.paintspray.chameleon.status.color", "§7Mode: §f%s");
@@ -78,12 +70,10 @@ public class PhoenixLangHandler {
         provider.add("behaviour.paintspray.chameleon.tooltip.info", "Scroll or use the Keybind to change color.");
         provider.add("behaviour.paintspray.solvent.short", "Solvent");
 
-        // Tesla Binder Item
         provider.add("item.phoenix_tesla_network.tesla_binder.linked", "§aLinked to: §f%s");
         provider.add("item.phoenix_tesla_network.tesla_binder.unlinked", "§cNot Linked");
         provider.add("item.phoenix_tesla_network.tesla_binder.frequency", "§7Frequency: §b%s");
 
-        // Placeholder/System Info
         multiLang(provider, "gtceu.placeholder_info.shieldStability",
                 "Returns the stability of the shield.",
                 "Note that not having a shield projected may result in nonsense values of integrity.",

@@ -38,7 +38,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 
-
 import net.phoenix_tesla_network.tesla.client.renderer.machine.TeslaHighlightRenderer;
 import net.phoenix_tesla_network.tesla.common.machine.singleblock.electric.TeslaWirelessChargerMachine;
 import net.phoenix_tesla_network.tesla.saveddata.TeslaTeamEnergyData;

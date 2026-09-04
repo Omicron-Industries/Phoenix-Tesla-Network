@@ -8,7 +8,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.network.NetworkEvent;
 import net.phoenix_tesla_network.tesla.common.data.item.PhoenixArmorItem;
 
-
 import java.util.Set;
 import java.util.function.Supplier;
 

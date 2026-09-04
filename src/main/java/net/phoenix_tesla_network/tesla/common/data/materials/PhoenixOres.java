@@ -15,8 +15,6 @@ public class PhoenixOres {
     public static Material CRYSTALLIZED_FLUXSTONE;
     public static Material PERMAFROST;
 
-
-
     public static void register() {
         NEVVONIAN_IRON = new Material.Builder(PhoenixTeslaNetwork.id("nevvonian_iron"))
                 .ingot()

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "phoenix_tesla_network:block/casings/batteries/tesla_uxv/bottom",
+    "side": "phoenix_tesla_network:block/casings/batteries/tesla_uxv/side",
+    "top": "phoenix_tesla_network:block/casings/batteries/tesla_uxv/top"
+  }
+}

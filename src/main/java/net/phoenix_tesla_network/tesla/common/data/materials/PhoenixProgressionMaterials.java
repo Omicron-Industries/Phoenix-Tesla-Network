@@ -16,13 +16,11 @@ import static com.gregtechceu.gtceu.api.data.tag.TagPrefix.ingot;
 
 public class PhoenixProgressionMaterials {
 
-    // Basic Alloys & Progression
     public static Material ALUMINFROST, SOURCE_IMBUED_TITANIUM, RESONANT_RHODIUM_ALLOY;
     public static Material EightyFivePercentPureNevonianSteel, AURUM_STEEL,
             FIERY_BRONZE, VOID_TOUCHED_TUNGSTEN_STEEL, FROST_REINFORCED_STAINED_STEEL, FROST,
             ADVANCED_QUIN_NAQUADIAN_ALLOY, NEBULAR_GOLD;
 
-    // Superconductors
     public static Material MAGMATIC_MANGANESE_LEAD, CRYOGENIC_ALUMINUM_STRAND, ICY_STEEL_MATRIX,
             SOURCE_TITANIUM_FILAMENT, MAGMA;
 
@@ -169,7 +167,6 @@ public class PhoenixProgressionMaterials {
                         GENERATE_BOLT_SCREW, GENERATE_FRAME, GENERATE_DENSE, GENERATE_ROTOR)
                 .buildAndRegister();
 
-        // Superconductors
         MAGMATIC_MANGANESE_LEAD = new Material.Builder(PhoenixTeslaNetwork.id("magmatic_manganese_lead")).ingot()
                 .fluid()
                 .color(0x8B4513).cableProperties(GTValues.V[LV], 2, 2).buildAndRegister();

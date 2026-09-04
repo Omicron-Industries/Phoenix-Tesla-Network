@@ -10,7 +10,6 @@ import snownee.jade.api.IWailaCommonRegistration;
 import snownee.jade.api.IWailaPlugin;
 import snownee.jade.api.WailaPlugin;
 
-
 @WailaPlugin
 public class PhoenixJadePlugin implements IWailaPlugin {
 

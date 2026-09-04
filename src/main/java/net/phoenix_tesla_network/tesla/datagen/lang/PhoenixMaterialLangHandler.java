@@ -5,9 +5,7 @@ import com.tterrag.registrate.providers.RegistrateLangProvider;
 public class PhoenixMaterialLangHandler {
 
     public static void init(RegistrateLangProvider provider) {
-        // Tag Prefixes
 
-        // Progression & Special Alloys
         provider.add("material.phoenix_tesla_network.aluminfrost", "§bAluminfrost");
         provider.add("material.phoenix_tesla_network.concentrated_sulfuric_acid", "Concentrated Sulfuric Acid");
         provider.add("material.phoenix_tesla_network.source_gem", "§zSource Gem");
@@ -28,7 +26,6 @@ public class PhoenixMaterialLangHandler {
         provider.add("material.phoenix_tesla_network.frost_reinforced_stained_steel",
                 "§bFrost-Reinforced Stained Steel");
 
-        // Superconductors
         provider.add("material.phoenix_tesla_network.magmatic_manganese_lead", "Magmatic Manganese Lead");
         provider.add("material.phoenix_tesla_network.cryogenic_aluminum_strand", "Cryogenic Aluminum Strand");
         provider.add("material.phoenix_tesla_network.icy_steel_matrix", "Icy Steel Matrix");
@@ -79,7 +76,6 @@ public class PhoenixMaterialLangHandler {
         addMaterialLang(provider, "plutonium_fission_ash", "Plutonium Fission Ash");
         addMaterialLang(provider, "trace_actinides", "Trace Actinides");
 
-        // Solutions and Fluids
         addMaterialLang(provider, "peanut", "Peanut");
         addMaterialLang(provider, "fissile_ash", "Fissile Ash");
         addMaterialLang(provider, "unrefined_aluminfrost", "Unrefined Aluminfrost");

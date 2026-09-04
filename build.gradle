@@ -33,6 +33,14 @@ repositories {
         }
     }
     maven {
+// Geckolib
+        url "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/"
+    }
+    maven {
+        name = "ftbMavenReleases"
+        url = uri("https://maven.ftb.dev/releases")
+    }
+    maven {
         name 'FirstDarkDev'
         url "https://maven.firstdark.dev/snapshots/"
     }
@@ -65,6 +73,9 @@ repositories {
 	}
     maven {
         url = "https://thedarkcolour.github.io/KotlinForForge/"
+    }
+    maven {
+        url = "https://maven.architectury.dev"
     }
 
 }
@@ -129,7 +140,7 @@ legacyForge {
 }
 jar {
     manifest.attributes([
-            "MixinConfigs": "examplemod.mixins.json"
+            "MixinConfigs": "phoenix_tesla_network.mixins.json"
     ])
 }
 
@@ -148,11 +159,21 @@ dependencies {
     modRuntimeOnly("dev.emi:emi-forge:${emi_version}+${minecraft_version}")
     modRuntimeOnly("curse.maven:jade-324717:5390389")
 
+    modRuntimeOnly("curse.maven:jade-324717:5390389")
+    modCompileOnly("curse.maven:jade-324717:5390389")
+
     // GregTech and dependencies
     modImplementation("com.gregtechceu.gtceu:gtceu-${minecraft_version}:${gtceu_version}:slim") { transitive = false }
     modImplementation("com.lowdragmc.ldlib:ldlib-forge-${minecraft_version}:${ldlib_version}") { transitive = false }
     modImplementation("com.tterrag.registrate:Registrate:${registrate_version}")
     modImplementation("dev.toma.configuration:configuration-forge-${minecraft_version}:${configuration_version}")
+
+    modRuntimeOnly("dev.architectury:architectury-forge:${architectury_version}")
+    modImplementation("dev.ftb.mods:ftb-library-forge:${ftblibrary_version}")
+    modImplementation("dev.ftb.mods:ftb-teams-forge:${ftbteams_version}")
+
+    modImplementation "software.bernie.geckolib:geckolib-neoforge-1.20.1:${geckolib_version}"
+    modImplementation "top.theillusivec4.curios:curios-forge:${curios_version}"
 
     // lombok
     compileOnly 'org.projectlombok:lombok:1.18.24'

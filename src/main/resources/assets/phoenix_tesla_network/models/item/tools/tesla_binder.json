@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "phoenix_tesla_network:item/tools/tesla_binder"
+  }
+}
